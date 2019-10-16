@@ -1,170 +1,139 @@
-# Reverse interview
+# Phỏng vấn ngược
 
-This is a list of questions which may be interesting to a tech job applicant.
-The points are not ordered and many may not apply to a given position, or work type.
-It was started as my personal list of questions, which grew over time to include both things I'd like to see more of and red flags which I'd like to avoid.
-I've also noticed how few questions were asked by people I interviewed and I think those were missed opportunities.
+Dưới đây là danh sách các câu hỏi có thể có ích cho việc ứng tuyển công việc công nghệ.
+Các mục không được chủ yếu sắp theo thứ tự, nhiều mục có thể không ứng dụng cho 1 số loại công việc và vị trí nhất định
+Đây được bắt đầu như danh sách câu hỏi được đúc kết cho cá nhân, sau dần được mở rộng nhiều hơn bao gồm cả những điều nên làm và nên tránh. Tôi cũng đã nhận thấy rằng thật ít câu hỏi được hỏi bởi những ứng viên mà tôi đã từng phỏng vấn, tôi thấy điều đó thật uổng phí.
 
-If you asked something not listed here, send in a PR.
+Nếu bạn đã từng hỏi/đề nghị điều gì không có trong danh sách dưới đây thì hãy gửi PR.
 
-Translations:
+Bản dịch:
 
-- [Arabic](https://github.com/sherifsaleh/reverse-interview/blob/master/translations/ARABIC.md)
+- [English](https://github.com/viraptor/reverse-interview)
 - [Catalan](https://github.com/viraptor/reverse-interview/blob/master/translations/CATALAN.md)
 - Chinese [Simplified](https://github.com/yifeikong/reverse-interview-zh) / [Traditional](https://github.com/NeroCube/reverse-interview-zh-tw/blob/master/README.md)
-- [English](https://github.com/viraptor/reverse-interview/blob/master/README.md)
 - [French](https://github.com/viraptor/reverse-interview/blob/master/translations/FRENCH.md)
 - [Korean](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/master/Reverse_Interview/README.md)
 - [Portuguese (Brazilian)](https://github.com/viraptor/reverse-interview/blob/master/translations/pt-BR.md)
 - [Russian](https://github.com/kix/reverse-interview/blob/master/README.md)
 - [Spanish](https://github.com/felHR85/Entrevista-inversa/blob/master/README.md)
 
-## Expected usage
+## Gợi ý dùng
 
-- Check which questions are interesting for you specifically
-- Check which answers you can find yourself online
-- Otherwise ask
+- Đọc và xem những câu hỏi nào bạn thấy hứng thú và phù hợp
+- Sau đó tìm xem đã có câu trả lời cho câu hỏi đó trên mạng chưa
+- Không có thì mới hỏi
 
-Definitely don't try to ask everything from the list. (Respect the interviewer's time and show initiative by finding answers on your own if they're already published)
+Hiển nhiên là bạn không thể hỏi tất cả câu hỏi ở đây được. (Mình trân trọng thời gian của người phỏng vấn, và thể hiện sự chủ động của mình bằng cách tự tìm kiếm thông tin đã được phổ dụng)
 
-Remember that things tend to be fluid, re-organizations happens often.
-Having a bug tracking system doesn't make bug handling efficient and CI/CD doesn't mean your time to deliver is necessarily short.
+Hãy ghi nhớ rằng danh sách này sẽ được thay đổi, sắp xếp lại thường xuyên.
 
-# The Role
+# Về Vai Trò
 
-- What's the on-call plan/schedule? (what's the pay for standby and call-out)
-- What are the tasks I would do on a usual day?
-- What's the junior/senior balance of the team? (and are there plans to change it)
-- What does the onboarding look like?
-- How much freedom for decision making do individual developers have?
-- What are the expected/core work hours?
-- What is your definition of success for this role?
-- Do you have any concerns about my application?
-- Tell me about who I would be working most closely with.
-- What management style does my immediate manager and their manager have? (from micro- to macro-)
+- Lịch trực on-call cụ thể thế nào? (công trả cho tình huống ngoài giờ và khẩn cấp)
+- Các việc mà tôi sẽ làm mỗi ngày là gì?
+- Tỷ lệ nhân viên junior và senior trong team thế nào? (có kế hoạch để thay đổi tỷ lệ này không)
+- Quy trình giới thiệu công ty và training thế nào?
+- Thường thì tương quan giữa việc độc lập làm việc và làm việc dựa trên danh sách cho sẵn thế nào?
+- Thông thường có bao nhiêu giờ làm việc mỗi ngày?
+- Thế nào được cho là thành công trong vị trí mà tôi đang ứng tuyển
+- Các bạn/công ty có thắc mắc gì về hồ sơ của tôi không?
 
-# Tech
+# Về Công Nghệ
 
-- What are the usual stacks used at the company?
-- How do you use source control?
-- How do you test code?
-- How do you track bugs?
-- How do you integrate and deploy changes? Is it CI/CD?
-- Is your infrastructure setup under version control / available as code?
-- What's the workflow from the planning to the finished task?
-- How do you prepare for disaster recovery?
-- Is there a standardised development environment? Is it enforced?
-- How quickly can you setup a new local test environment for the product? (minutes / hours / days)
-- How quickly can you respond to security issues in the code or dependencies?
-- Are all developers allowed to have local admin access of their computers?
-- Tell me about your technical principles or vision.
-- Do you have a developer documentation for your code? Do you have a separate documentation for customers?
-- Do you employ static code analysis?
-- How do you manage internal / external artifacts?
-- How do you manage dependencies?
+- Các công nghệ nào được dùng trong công ty
+- Nhóm/công ty đang dùng source control (git/svn..) thế nào?
+- Nhóm/công ty kiểm thử code thế nào?
+- Nhóm/công ty tìm kiếm lỗi phần mềm thế nào?
+- Nhóm/công ty tích hợp và triển khai các thay đổi mới thế nào? Có phải là liên-tục-tích-hợp/liên-tục-triển-khai (CI/CD) không?
+- Có phải hạ tầng của công ty được cài đặt dùng version control (git/svn..) và được lưu trữ bằng mã code không (kiểu như việc quản lý cấu hình dùng ansible/chef..)?
+- Công ty đang dùng quy trình công việc gì để đi từ lên kế hoạch công việc tới hoàn thành công việc
+- Công ty đang dự phòng cho rủi ro hệ thống, và phục hồi từ rủi ro đó thế nào?
+- Có môi trường chuẩn cho việc phát triển không? Nó có được quy định chặt chẽ phải dùng không?
+- Cần thời gian bao lâu để dựng môi trường sản phẩm trên máy local của mình (tính theo phút, theo giờ, theo ngày)
+- Cần thời gian bao lâu để các bạn ứng phó với lỗi bảo mật trong mã nguồn của mình và trong mã nguồn bên thứ 3
+- Tất cả các lập trình viên có được cấp quyền quản trị cho máy tình cá nhân không?
+- Vui lòng chia sẻ cho tôi những triết lý/nguyên tắc công nghệ và tầm nhìn của bạn
 
-# The Team
+# Về Nhóm
 
-- How is the work organised?
-- How does the intra/inter-team communication typically work?
-- Do you use any tools for project organization? What is your experience with them?
-- How are differences of opinions resolved?
-- Who sets the priorities / schedule?
-- What happens after pushback? ("this can't be done in the projected time")
-- What happens when the team misses a release target?
-- What kind of meetings happen every week?
-- What's the product/service schedule? (n-weekly releases / continuous deployment / multiple release streams / ...)
-- What happens after production incidents? Is there a culture of blameless analysis?
-- What are some ongoing challenges the team is experiencing that you are yet to resolve?
-- How do you track progress?
-- How are expectations and goals set, and who does the setting?
-- What does a code review look like here?
-- Walk me through a typical sprint on this team
-- How do you balance technical vs business goals?
+- Công việc được tổ chức thế nào?
+- Giao tiếp trong nhóm hạ tầng và giữa các nhốm thế nào?
+- Các bạn có dùng các công cụ quản trị dự án nào? Trải nghiệm của bạn với chúng thế nào?
+- Thông thường việc khác biệt quan điểm diễn ra và được giải quyết thế nào?
+- Ai là người đặt ra hạn chót và độ ưu tiên của công việc?
+- Chuyện gì sẽ xảy ra khi công việc không được hoàn thành trước hạn chót?
+- Chuyện gì sẽ xảy ra khi cả nhóm không hoàn thành được mục tiêu ra mắt sản phẩm?
+- Nhưng cuộc họp nào diễn ra hàng tuần?
+- Lịch ra mắt sản phẩm/dịch vụ/tính năng thường kỳ thế nào? (Cách tuần hay triển khai liên tục hay thế nào?)
+- Chuyện gì sẽ xảy ra sau mỗi sự cố sản phẩm? Có văn hoá phân tích sự cố nhưng không đổ lỗi không?
+- Những thách thức gì mà nhóm đang đối diện nhưng chưa giải quyết xong
+- Các bạn cân bằng giữa mục tiêu công nghệ và mục tiêu kinh doanh thế nào?
 
-# Your Potential Coworkers
+# Về Đồng Nghiệp Tương Lai
 
-- Who do developers tend to learn from?
-- What do you like best about working there?
-- What do you like least?
-- What would you change if you could?
-- How long has the longest team member been there?
+- Bạn thích điều gì nhất khi làm việc ở đây?
+- Điều gì không thích nhất?
+- Nếu bạn có thể thì bạn muốn thay đổi điều gì ở đây?
+- Thành viên nào làm việc ở đây lâu nhất, bao lâu?
 
-# The Company
+# Về công ty
 
-- Is there a conference/travel budget and what are the rules to use it?
-- What's the promotion process? How are requirements / expectations communicated?
-- What is the performance review process like?
-- Is there a separate tech and management career path?
-- What's the status of / view on diverse hiring?
-- Are there any company-wide resources for learning available, like ebooks subscriptions, or online courses?
-- Is there a budget for getting certifications?
-- What's the maturity stage? (early finding direction / feature work / maintenance / ...)
-- Can I contribute to FOSS projects? Are there any approvals needed?
-- Are there any non-compete or non-disclosure agreements I'll be asked to sign?
-- Where do you see the company in the next 5/10 years? 
-- What do you think are the gaps in the company culture?
-- What does clean code mean to the majority of developers here?
-- When is the last time you noticed someone growing here, and in what way were they growing?
-- What does it mean to be successful here, and how do you measure success?
-- What does work-life balance mean here?
+- Có chính sách hỗ trợ đi lại tham gia các hội thảo chuyên đề không. Nếu có thì quy định thế nào?
+- Quy trình thăng cấp bậc thế nào? Các yêu cầu / mong đợi được trao đổi thế nào?
+- Quy trình đánh gía hiệu năng thế nào?
+- Có sự khác biệt giữa con đường phát triển sự nghiệp của mảng công nghệ và mảng quản lý không?
+- Suy nghĩ của công ty về việc tuyển dụng đa dạng là gì? Hiện tại có làm thế không?
+- Có những tài nguyên nào trong toàn công ty cho việc học hành, như là thuê bao đọc sách điện tử hay là các khoá học trực tuyến?
+- Có ngân sách để thi các loại chứng chỉ không?
+- Công ty đang ở giai đoạn nào trong mức trưởng thành? (Mới tìm hướng đi / Tập trung vào tính năng / Bảo trì / ...)?
+- Tôi có thể đóng góp cho các dự án nguồn mở không? Có cần được cấp phép không?
+- Có bất kỳ những thoả thuận không cạnh tranh và thoả thuận không tiết lộ nào mà tôi sẽ được yêu cầu ký?
+- Bạn thấy công ty ở đâu trong 5/10 năm tới?
+- Bạn thấy hiện tại có những vấn đề gì trong văn hoá công ty?
+- Bạn có thể kể tôi nghe một câu chuyện về tình huồng độc hại và cách mà công ty đã ứng phó với nó không?
 
-# Conflict
+# Tình hình kinh doanh
 
-- How are differences of opinions resolved?
-- What happens after pushback? ("this can't be done in the projected time")
-- What happens when the team is under pressure and commits to work over their capacity / velocity?
-- If someone identifies areas of improvement in process / technology / etc, what happens?
-- When there is a gap between expectations from management and performance of an engineer or team, what happens?
-- Could you tell me a story about a toxic situation and how the company dealt with it?
+- Các bạn có đang có lãi không?
+- Nếu chưa thì bao lâu nữa thì có thể có lãi?
+- Nguồn tiền tài trợ tới từ đâu? Những ai ảnh hưởng tới kế hoạch / định hướng cấp cao?
+- Các bạn kiếm tiền như thế nào?
+- Điều gì đang ngăn trở các bạn kiếm thêm tiền?
+- Kế hoạch phát triển của công ty trong 1, 5 năm tới là gì?
+- Các thách thức bạn thấy công ty đang/sẽ gặp phải là gì?
+- Những gì mà bạn xác định là lợi thế cạnh tranh của công ty?
 
-# The Business
+# Làm việc từ xa
 
-- Are you profitable?
-- If not, how long is your runway?
-- Where does the funding come from and who influences the high level plan/direction?
-- How do you make money?
-- What's preventing you from making more money?
-- What is the company's growth plan for the next 1 year? 5 years?
-- What are the big challenges you see coming up?
-- What have you identified as your competitive advantage?
+- Tỷ lệ nhân viên làm việc từ xa và làm việc văn phòng là gì?
+- Công ty có cung cấp các thiết bị không và bao lâu có thể thay thế?
+- Các bạn thấy thế nào về việc [Mang thiết bị cá nhân](https://en.wikipedia.org/wiki/Bring_your_own_device)? Có những chính sách hiện hành nào quanh việc đó không?
+- Có thể mua thêm các phụ kiện / đồ nội thất qua công ty không? Có ngân sách công ty cho việc đó không?
+- Có ngân sách cho không gian làm việc chung hoặc truy cập internet không?
+- Các chuyến thăm văn phòng thường xuyên thế nào?
+- Các phòng họp trong công ty luôn sẵn sàng cho các cuộc gọi hội nghị chứ?
 
-# Remote Work
+# Làm việc tại văn phòng
 
-- What's the ratio of remote to office workers?
-- Does the company provide hardware and what's the refresh schedule?
-- How do you feel about [BYOD](https://en.wikipedia.org/wiki/Bring_your_own_device)? Are there any policies around it already?
-- Are extra accessories/furniture possible to buy through the company? Is there a budget for them?
-- Is there a budget for co-working space or internet access?
-- How often are office visits expected?
-- Are the office meeting rooms always prepared for video conferences?
+- Công ty bố trí văn phòng thế nào? (không gian mở / các tủ đồ / các phòng nhỏ)
+- Có đội nào chuyên gọi điện như là đội tiếp thị / đội hỗ trợ cạnh phòng của đội tôi không?
 
-# Building Layout
+# Khoản đền bù
 
-- What's the office layout? (open plan / cubicles / offices)
-- Is there a support / marketing / other call-heavy team close to my new team?
+- Nếu bạn có chế độ thưởng, thì tiền thưởng được xác định như thế nào?
+- Nếu bạn có chế độ thưởng, thì tỷ lệ phần thưởng điển hình trong vài năm qua là bao nhiêu?
+- Bạn có kế hoạch nghỉ hưu 401k hoặc tương tự không? Nếu có, công ty có góp phần tương ứng với những khoản tham gia của nhân viên không?
 
-# Catch all
+# Chế độ nghỉ hưởng lương (PTO)
 
-- What's the best and what's the worst aspect of working in this role / team / company?
+- Có bao nhiêu buổi PTO được cho phép?
+- Trong đó thì buổi nghỉ ốm và buổi nghỉ ngơi du lịch có được tính rời không hay tính chung?
+- Tôi có thể sử dụng thời gian nghỉ trước khi nó tích luỹ không, khi đó thì số buổi nghỉ PTO sẽ âm chứ?
+- Chính sách cộng dồn có được áp dụng cho PTO không?
+- Chính sách nghỉ phép của cha mẹ thế nào?
+- Chính sách nghỉ phép không lương thế nào?
 
-# Compensation
-
-- If you have a bonus scheme, then how are bonuses determined?
-- If you have a bonus scheme, then what have been the typical bonus percentages over the past few years?
-- Do you have a 401k or other retirement plan? If so, is there a company match to plan contributions?
-- Are there medical benefits and if so, when do they start?
-
-# Time Off
-
-- How much Paid Time Off (PTO) is offered?
-- Are sick time and vacation time separate or do they come from the same pool?
-- Can I use vacation time before it's accrued, effectively going into a negative PTO balance?
-- What is the roll over policy is there for PTO?
-- What is the parental leave policy?
-- What is the policy on unpaid leave?
-
-# Other resources
+# Tài liệu tham khảo
 
 - Find more inspiration for questions in the [Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
 
