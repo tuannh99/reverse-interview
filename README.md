@@ -90,7 +90,7 @@ Hãy ghi nhớ rằng danh sách này sẽ được thay đổi, sắp xếp l�
 - Có bất kỳ những thoả thuận không cạnh tranh và thoả thuận không tiết lộ nào mà tôi sẽ được yêu cầu ký?
 - Bạn thấy công ty ở đâu trong 5/10 năm tới?
 - Bạn thấy hiện tại có những vấn đề gì trong văn hoá công ty?
-- Bạn có thể kể tôi nghe một câu chuyện về tình huồng độc hại và cách mà công ty đã ứng phó với nó không?
+- Bạn có thể kể tôi nghe một câu chuyện về tình huống độc hại và cách mà công ty đã ứng phó với nó không?
 
 # Tình hình kinh doanh
 
